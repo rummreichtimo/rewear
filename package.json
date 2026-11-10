@@ -1,0 +1,31 @@
+{
+  "name": "rewear",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "rewear – Secondhand-Mode mit Geschichte. Online-Shop.",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "start": "node ./dist/server/entry.mjs",
+    "check": "astro check",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/node": "^11.1.11",
+    "@astrojs/sitemap": "^3.7.4",
+    "@fontsource-variable/archivo": "^5.3.0",
+    "astro": "^7.4.8",
+    "nodemailer": "^10.5.0",
+    "stripe": "^23.1.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.12",
+    "@types/nodemailer": "^8.0.2",
+    "typescript": "^5.9.3"
+  }
+}
